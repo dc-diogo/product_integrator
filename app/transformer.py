@@ -14,7 +14,7 @@ list_of_matches = []
 
 def start_alternate():
     histories_databases = config.get_history_databases()
-0
+
     for db in histories_databases:
         collection_name = histories_databases["collection"]
         col = db[collection_name]
